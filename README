@@ -3,3 +3,6 @@
 > npm i -D nodemon
 > npm install -g win-node-env
 
+Run developer
+ npm run dev
+
