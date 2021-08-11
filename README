@@ -9,3 +9,8 @@ Run developer
 
 //Install Middleware
  npm i morgan
+
+ install:
+ -Create Clouster on MongoDB
+ - MongoDB Compas
+ https://mongoosejs.com/docs/
