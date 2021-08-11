@@ -14,3 +14,6 @@ Run developer
  -Create Clouster on MongoDB
  - MongoDB Compas
  https://mongoosejs.com/docs/
+
+ Install:
+ npm i colors
