@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 //onst logger = require('./middleware/logger');
 const morgan = require('morgan');
 const colors = require('colors');
+const errorHandler = require('./middleware/Error');
 
 
 
@@ -31,7 +32,7 @@ if(process.env.NODE_ENV === 'development'){
 //app.use(logger);
 app.use('/api/v1/bootcamps', bootcamps)
 
-
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
